@@ -99,7 +99,7 @@ function createMap(earthquakes) {
     legend.onAdd = function (myMap) {
 
         let div = L.DomUtil.create('div', 'info legend'),
-            grades = [-10, 10, 30, 60, 90],
+            grades = [-10, 10, 30, 50, 70, 90],
             labels = [],
             legendInfo = "<h5>Magnitude</h5>";
 
